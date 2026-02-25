@@ -11,6 +11,22 @@
     "host": "news.china",
     "pathPattern": "/",
     "titleSelector": "h1.articleTitle",
-    "contentSelector": "div#articleBody"
+    "contentSelector": "div#articleBody",
+    "excludeSelectors": [
+      "[id*='recommend']",
+      "[class*='related']",
+      "[class*='hot-news']",
+      "[class*='redian']",
+      "[class*='channel-hot']",
+      "[class*='remen']",
+      "[class*='guanggao']",
+      "[class*='tuijian']",
+      "[class*='paihang']",
+      "[class*='xiangguang']",
+      "[id*='CH_MTL']",
+      "[class*='med_area']",
+      "[class*='media-fixed']",
+      "#js-media-fixed"
+    ]
   }
 }
